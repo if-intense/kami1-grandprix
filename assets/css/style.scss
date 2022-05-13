@@ -431,6 +431,9 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
                 .text-area {
                     //    background:rgb(202, 202, 202);
                     border-top: 1px dotted rgb(126, 126, 126);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                     //    height:100%;
                     p {
                         font-size: 0.8em;
@@ -749,6 +752,10 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
         h4 {
             font-size: 2em;
         }
+        h2 {
+            font-size: 1.4em;
+        }
+
     }
 
 
