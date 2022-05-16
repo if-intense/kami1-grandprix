@@ -747,6 +747,10 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
       }
     }
   }
+
+  .small-smph-connect {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 414px) {
@@ -765,9 +769,7 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
         }
     }
 
-    .small-smph-connect {
-        display: none;
-    }
+
 
     .sect05 {
         .steps-to-enter {

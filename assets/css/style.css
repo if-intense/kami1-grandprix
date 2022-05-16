@@ -652,6 +652,10 @@ body {
   .main-title h2 strong {
     font-size: 1em;
   }
+
+  .small-smph-connect {
+    display: none;
+  }
 }
 @media screen and (max-width: 414px) {
   .main-title h4 {
@@ -659,10 +663,6 @@ body {
   }
   .main-title h5 span {
     font-size: 1.25em;
-  }
-
-  .small-smph-connect {
-    display: none;
   }
 
   .sect05 .steps-to-enter h3 {
