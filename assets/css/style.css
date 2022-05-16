@@ -28,6 +28,27 @@ body {
   display: block;
 }
 
+.register {
+  position: fixed;
+  bottom: 8%;
+  right: 2%;
+  z-index: 99999;
+}
+.register a {
+  color: #fff;
+  text-decoration: none;
+  background: #800f82;
+  background: radial-gradient(circle, #800f82 0%, #341e86 100%);
+  padding: 3vh 2vw;
+  border-radius: 20px;
+}
+.register a:hover {
+  font-weight: bold;
+  color: #fff;
+  background: #cf60d1;
+  background: radial-gradient(circle, #cf60d1 0%, #800f82 100%);
+}
+
 .bottomMenu {
   position: fixed;
   bottom: 0%;

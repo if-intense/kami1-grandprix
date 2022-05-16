@@ -38,6 +38,28 @@ body {
     display: block;
 }
 
+.register {
+  position:fixed;
+  bottom:8%;
+  right:2%;
+  z-index:99999;
+
+  a {
+    color:#fff;
+    text-decoration: none;
+    background: rgb(128,15,130);
+    background: radial-gradient(circle, rgba(128,15,130,1) 0%, rgba(52,30,134,1) 100%);
+    padding:3vh 2vw;
+    border-radius: 20px;
+    &:hover {
+      font-weight: bold;
+      color:#fff;
+      background: rgb(207,96,209);
+background: radial-gradient(circle, rgba(207,96,209,1) 0%, rgba(128,15,130,1) 100%);
+    }
+  }
+}
+
 .bottomMenu {
     // display: none;
     position: fixed;

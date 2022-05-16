@@ -28,13 +28,24 @@
 
     $(document).scroll(function () {
       var y = $(this).scrollTop();
-      if (y > 200) {
+      if (y > 1000) {
         $('.bottomMenu').fadeIn();
       } else {
         $('.bottomMenu').fadeOut();
       }
     });
 
+  </script>
+
+  <script>
+    $(document).scroll(function () {
+      var y = $(this).scrollTop();
+      if (y > 1200) {
+        $('.register').fadeIn();
+      } else {
+        $('.register').fadeOut();
+      }
+    });
   </script>
 
   <script>
@@ -46,6 +57,9 @@
 
 
 <body>
+    <div class="register">
+      <a href="#">登録はこちら</a>
+    </div>
     <div class="wrapper">
         <div class="bottomMenu" id="link-banner">
             <div class="container">
