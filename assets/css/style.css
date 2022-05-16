@@ -658,6 +658,14 @@ body {
   .small-smph-connect {
     display: none;
   }
+
+  .main .sect05 .steps-to-enter h3 {
+    font-size: 1.25em;
+  }
+  .main .sect05 .steps-to-enter h3 span {
+    font-size: 1.5em;
+    padding: 0 3px;
+  }
 }
 @media screen and (max-width: 414px) {
   .main-title h4 {
@@ -691,6 +699,13 @@ body {
   }
   .main .sect04 .entry .entry-qual ul li {
     font-size: 1em;
+  }
+  .main .sect05 .steps-to-enter h3 {
+    font-size: 1em;
+  }
+  .main .sect05 .steps-to-enter h3 span {
+    font-size: 1.5em;
+    padding: 0 3px;
   }
 }
 @media screen and (max-width: 378px) {
