@@ -33,6 +33,7 @@ body {
   bottom: 10%;
   right: 2%;
   z-index: 99999;
+  display: none;
 }
 .register a {
   color: #fff;
