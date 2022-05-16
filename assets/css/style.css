@@ -303,8 +303,9 @@ body {
   background: linear-gradient(111.3deg, #d36505 9.6%, #0d1a29 93.6%);
 }
 .main .sect04 .entry .entry-qual ul {
-  list-style: square;
+  list-style-type: none;
   margin: 4vh 0;
+  padding: 0;
 }
 .main .sect04 .entry .entry-qual ul li {
   line-height: 1.5em;
@@ -708,6 +709,9 @@ body {
     font-size: 1em;
   }
   .main .sect04 .entry .entry-qual ul li {
+    font-size: 1em;
+  }
+  .main .sect05 .steps-to-enter h3 {
     font-size: 1em;
   }
 
