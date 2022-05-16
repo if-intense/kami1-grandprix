@@ -312,6 +312,9 @@ body {
   font-size: 1.25em;
   color: #b08407;
 }
+.main .sect04 .entry .entry-qual ul li span {
+  font-size: 0.9em;
+}
 .main .sect04 .entry .body ul li {
   font-size: 0.9em;
 }
@@ -402,6 +405,10 @@ body {
   padding: 20px 10px 10px;
   margin-bottom: 0;
 }
+.main .sect05 .steps .content .text-area p span {
+  font-size: 0.9em;
+  font-weight: bold;
+}
 .main .sect06 {
   color: #0d1a29;
 }
@@ -478,6 +485,16 @@ body {
 .main .sect06 .requirements .requirement-table .req-row .text p span strong {
   color: #b90707;
   padding: 0 5px;
+}
+.main .sect06 .requirements .requirement-table .schedule-row .text p em,
+.main .sect06 .requirements .requirement-table .req-row .text p em {
+  font-style: normal;
+  font-size: 0.9em;
+}
+.main .sect06 .requirements .requirement-table .schedule-row .text p .small,
+.main .sect06 .requirements .requirement-table .req-row .text p .small {
+  font-size: 0.8em;
+  padding-top: 10px;
 }
 
 .footer {
@@ -589,10 +606,11 @@ body {
     padding: 10px 3px;
   }
   .main .sect06 .requirements .requirement-table h3 {
-    font-size: 1.25em;
+    font-size: 1.5em;
     color: #b08407;
     margin: 4vh auto 2vh;
     line-height: 2em;
+    font-weight: bold;
   }
   .main .sect06 .requirements .requirement-table h3 span {
     font-size: 2em;
@@ -725,6 +743,9 @@ body {
   }
   .main .sect04 .entry .entry-qual ul li {
     font-size: 1em;
+  }
+  .main .sect04 .entry .entry-qual ul li span {
+    font-size: 0.9em;
   }
   .main .sect05 .steps-to-enter h3 {
     font-size: 1em;

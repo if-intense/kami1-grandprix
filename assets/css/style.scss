@@ -357,6 +357,9 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
                         line-height: 1.5em;
                         font-size: 1.25em;
                         color: $kamisma-gold;
+                        span {
+                          font-size: 0.9em;
+                        }
                     }
                 }
             }
@@ -466,6 +469,10 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
                         font-size: 0.8em;
                         padding: 20px 10px 10px;
                         margin-bottom: 0;
+                        span {
+                          font-size: 0.9em;
+                          font-weight: bold;
+                        }
                     }
                 }
             }
@@ -542,6 +549,14 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
                                     color: rgb(185, 7, 7);
                                     padding: 0 5px;
                                 }
+                            }
+                            em {
+                              font-style: normal;
+                              font-size: 0.9em;
+                            }
+                            .small {
+                              font-size: 0.8em;
+                              padding-top: 10px;
                             }
                         }
                     }
@@ -673,10 +688,11 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
             .requirements {
                 .requirement-table {
                     h3 {
-                        font-size: 1.25em;
+                        font-size: 1.5em;
                         color: $kamisma-gold;
                         margin: 4vh auto 2vh;
                         line-height: 2em;
+                        font-weight: bold;
                         span {
                             font-size: 2em;
                         }
@@ -890,6 +906,9 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
                     ul {
                         li {
                             font-size: 1em;
+                            span {
+                              font-size: 0.9em;
+                            }
                         }
                     }
                 }
