@@ -85,10 +85,13 @@ body {
 }
 .main-title h2 strong {
   font-size: 1.25em;
-  font-family: "Oswald", sans-serif;
 }
 .main-title h2 span {
   font-size: 0.9em;
+}
+.main-title h2.top {
+  font-weight: bold;
+  margin-bottom: 6vh;
 }
 .main-title h3 {
   font-size: 3.5em;

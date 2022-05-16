@@ -107,13 +107,19 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
 
     h2 {
         line-height: 1.5em;
+        // color: red;
+        // font-weight: bold;
         strong {
             font-size: 1.25em;
-            font-family: "Oswald", sans-serif;
+            // font-family: "Oswald", sans-serif;
         }
         span {
             font-size: 0.9em;
         }
+    }
+    h2.top {
+      font-weight: bold;
+      margin-bottom: 6vh;
     }
     h3 {
         font-size: 3.5em;
@@ -413,7 +419,7 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
                     transform: rotate(-10deg);
                     color: #fff;
                     text-shadow: 1px 1px 3px #000;
-                    
+
 
                 }
                 .img-area {
