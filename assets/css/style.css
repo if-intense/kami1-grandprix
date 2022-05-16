@@ -30,23 +30,21 @@ body {
 
 .register {
   position: fixed;
-  bottom: 8%;
+  bottom: 10%;
   right: 2%;
   z-index: 99999;
 }
 .register a {
   color: #fff;
   text-decoration: none;
-  background: #800f82;
-  background: radial-gradient(circle, #800f82 0%, #341e86 100%);
+  background: rgba(19, 67, 153, 0.8);
   padding: 3vh 2vw;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .register a:hover {
   font-weight: bold;
   color: #fff;
-  background: #cf60d1;
-  background: radial-gradient(circle, #cf60d1 0%, #800f82 100%);
+  background: rgba(30, 105, 197, 0.7);
 }
 
 .bottomMenu {
@@ -648,6 +646,11 @@ body {
 @media screen and (max-width: 446px) {
   .sect01 .dark #timer {
     font-size: 2.5em;
+  }
+}
+@media screen and (max-width: 428px) {
+  .main-title h2 strong {
+    font-size: 1em;
   }
 }
 @media screen and (max-width: 414px) {

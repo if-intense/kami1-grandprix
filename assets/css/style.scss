@@ -40,22 +40,20 @@ body {
 
 .register {
   position:fixed;
-  bottom:8%;
+  bottom:10%;
   right:2%;
   z-index:99999;
 
   a {
     color:#fff;
     text-decoration: none;
-    background: rgb(128,15,130);
-    background: radial-gradient(circle, rgba(128,15,130,1) 0%, rgba(52,30,134,1) 100%);
+    background:rgba(19, 67, 153,0.8);
     padding:3vh 2vw;
-    border-radius: 20px;
+    border-radius: 10px;
     &:hover {
       font-weight: bold;
       color:#fff;
-      background: rgb(207,96,209);
-background: radial-gradient(circle, rgba(207,96,209,1) 0%, rgba(128,15,130,1) 100%);
+      background:rgba(30, 105, 197,0.7);
     }
   }
 }
@@ -739,6 +737,16 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
             }
         }
     }
+}
+
+@media screen and (max-width: 428px) {
+  .main-title {
+    h2 {
+      strong {
+        font-size: 1em;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 414px) {
