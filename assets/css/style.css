@@ -34,18 +34,26 @@ body {
   right: 2%;
   z-index: 99999;
   display: none;
+  text-align: center;
+  padding: 6px 5px;
+  background: rgba(19, 67, 153, 0.8);
+  border-radius: 5px;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
 }
 .register a {
   color: #fff;
   text-decoration: none;
-  background: rgba(19, 67, 153, 0.8);
   padding: 3vh 2vw;
   border-radius: 10px;
 }
 .register a:hover {
   font-weight: bold;
   color: #fff;
-  background: rgba(30, 105, 197, 0.7);
+}
+.register p {
+  color: #cdec32;
+  font-size: 0.8em;
+  margin: 0;
 }
 
 .bottomMenu {
