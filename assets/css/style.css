@@ -395,7 +395,6 @@ body {
   height: auto !important;
 }
 .main .sect05 .steps .content .text-area {
-  border-top: 1px dotted #7e7e7e;
   display: flex;
   align-items: center;
   justify-content: center;
