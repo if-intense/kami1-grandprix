@@ -763,6 +763,9 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
         font-size: 1em;
       }
     }
+    h2.top {
+      font-size: 1.5em;
+    }
   }
 
   .small-smph-connect {
@@ -790,6 +793,9 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
     // }
 
     .main-title {
+        h2.top {
+            font-size: 1.3em;
+        }
         h4 {
             font-size: 2.25em;
         }
@@ -823,6 +829,9 @@ background: linear-gradient(140deg, rgba(253,231,21,1) 0%, rgba(237,137,10,1) 10
         }
         h2 {
             font-size: 1.4em;
+        }
+        h2.top {
+            font-size: 1.2em;
         }
 
     }
