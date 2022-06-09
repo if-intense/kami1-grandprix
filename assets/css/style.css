@@ -42,18 +42,19 @@ body {
   box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
 }
 .register a {
-  color: #fff;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  color: #424242;
   text-decoration: none;
   padding: 3vh 2vw;
   border-radius: 10px;
 }
 .register a:hover {
   font-weight: bold;
-  color: #fff;
+  color: #424242;
 }
 .register p {
   color: #424242;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
   font-size: 0.8em;
   font-weight: bold;
   margin: 0;
